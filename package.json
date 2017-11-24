@@ -1,0 +1,31 @@
+{
+  "name": "resume-website",
+  "version": "1.0.0",
+  "description": "This is a website featuring my resume and an example of my software development abilities!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbigger/resume.git"
+  },
+  "keywords": [
+    "Resume"
+  ],
+  "author": "Nick Bigger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbigger/resume/issues"
+  },
+  "homepage": "https://github.com/nbigger/resume#readme",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-sass": "latest",
+    "gulp-coffee": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest"
+  }
+}
