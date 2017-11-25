@@ -31,23 +31,23 @@
       <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title">Resume</span>
+          <span class="mdl-layout-title">Nick Bigger</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">Skills</a>
-            <a class="mdl-navigation__link" href="">Experience</a>
-            <a class="mdl-navigation__link" href="">Contact</a>
+            <a class="mdl-navigation__link" href="#skills">Skills</a>
+            <a class="mdl-navigation__link" href="#experience">Experience</a>
+            <a class="mdl-navigation__link" href="#contact">Contact</a>
           </nav>
         </div>
       </header>
       <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Title</span>
+        <span class="mdl-layout-title">Sections</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Skills</a>
-          <a class="mdl-navigation__link" href="">Experience</a>
-          <a class="mdl-navigation__link" href="">Contact</a>
+          <a class="mdl-navigation__link" href="#skills">Skills</a>
+          <a class="mdl-navigation__link" href="#experience">Experience</a>
+          <a class="mdl-navigation__link" href="#contact">Contact</a>
         </nav>
       </div>
     </div>
@@ -56,9 +56,9 @@
   </div>
 
   <div class="bottom-half">
-    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text">Nick Bigger</h2>
+    <div id="profile-card" class="demo-card-wide mdl-card mdl-shadow--2dp">
+      <div id="profile" class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Profile</h2>
       </div>
       <p class="mdl-card__supporting-text">
         I am a Computer Science student studying for my Bachelors of Science at the University of Puget Sound.
@@ -85,10 +85,50 @@
       </div>
     </div>
 
-    <center>
-      <div class="card">
-        <div class="card-info">
-          <h3 class="skills-header">Skills</h3>
+    <div name="skills" class="skills-section">
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div id="skills" class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Skills</h2>
+        </div>
+        <ul class="demo-list-three mdl-list">
+          <li class="mdl-list__item mdl-list__item--three-line">
+            <span class="mdl-list__item-primary-content">
+              <span>Java</span>
+              <span class="mdl-list__item-text-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </span>
+            </span>
+            <span class="mdl-list__item-secondary-content">
+              <a class="mdl-list__item-secondary-action">3/5</a>
+            </span>
+          </li>
+          <li class="mdl-list__item mdl-list__item--three-line">
+            <span class="mdl-list__item-primary-content">
+              <span>Python</span>
+              <span class="mdl-list__item-text-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </span>
+            </span>
+            <span class="mdl-list__item-secondary-content">
+              <a class="mdl-list__item-secondary-action">4/5</a>
+            </span>
+          </li>
+          <li class="mdl-list__item mdl-list__item--three-line">
+            <span class="mdl-list__item-primary-content">
+              <span>HTML/CSS</span>
+              <span class="mdl-list__item-text-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </span>
+            </span>
+            <span class="mdl-list__item-secondary-content">
+              <a class="mdl-list__item-secondary-action">4/5</a>
+            </span>
+          </li>
+        </ul>
+        <div class="mdl-card__actions mdl-card--border">
           <ul class="demo-list-three mdl-list">
             <li class="mdl-list__item mdl-list__item--three-line">
               <span class="mdl-list__item-primary-content">
@@ -99,7 +139,7 @@
                 </span>
               </span>
               <span class="mdl-list__item-secondary-content">
-                <a class="mdl-list__item-secondary-action" href="#">3/5</a>
+                <a class="mdl-list__item-secondary-action">3/5</a>
               </span>
             </li>
             <li class="mdl-list__item mdl-list__item--three-line">
@@ -111,7 +151,7 @@
                 </span>
               </span>
               <span class="mdl-list__item-secondary-content">
-                <a class="mdl-list__item-secondary-action" href="#">4/5</a>
+                <a class="mdl-list__item-secondary-action">4/5</a>
               </span>
             </li>
             <li class="mdl-list__item mdl-list__item--three-line">
@@ -123,13 +163,63 @@
                 </span>
               </span>
               <span class="mdl-list__item-secondary-content">
-                <a class="mdl-list__item-secondary-action" href="#">4/5</a>
+                <a class="mdl-list__item-secondary-action">4/5</a>
               </span>
             </li>
           </ul>
         </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.linkedin.com/in/nickbigger/">
+            Visit LinkedIn
+          </a>
+        </div>
       </div>
-    </center>
+    </div>
+
+    <div name="experience" class="section">
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div id="experience" class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Experience</h2>
+        </div>
+        <p class="mdl-card__supporting-text">
+          I am a Computer Science student studying for my Bachelors of Science at the University of Puget Sound.
+          I am passionate about full-stack software development and UI/UX design, and hope to one day expand
+          my skills to include artificial intelligence. I have an excellent knowledge of Java, Python, HTML/CSS,
+          SQL, Jade, and JavaScript and a drive to learn more in the future.<br />
+          <br />
+          I am pursuing an internship in the coming Summer 2018 to follow up an extremely successful three months
+          spent as a Product Consultant Intern at Tableau Software, where I learned how to visualize data and
+          communicate with databases using SQL. In addition, I became a Tableau Certified Associate. The summer
+          before I worked as a Software Developer at a VFX firm in London England Nvizible, where I wrote a
+          program to package, analyze, scrub and approve large video files for clients.
+        </p>
+      </div>
+    </div>
+
+    <div name="contact" class="section">
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div id="contact" class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Nick Bigger</h2>
+        </div>
+        <p class="mdl-card__supporting-text">
+          I am a Computer Science student studying for my Bachelors of Science at the University of Puget Sound.
+          I am passionate about full-stack software development and UI/UX design, and hope to one day expand
+          my skills to include artificial intelligence. I have an excellent knowledge of Java, Python, HTML/CSS,
+          SQL, Jade, and JavaScript and a drive to learn more in the future.<br />
+          <br />
+          I am pursuing an internship in the coming Summer 2018 to follow up an extremely successful three months
+          spent as a Product Consultant Intern at Tableau Software, where I learned how to visualize data and
+          communicate with databases using SQL. In addition, I became a Tableau Certified Associate. The summer
+          before I worked as a Software Developer at a VFX firm in London England Nvizible, where I wrote a
+          program to package, analyze, scrub and approve large video files for clients.
+        </p>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="./img/resume.pdf" download="resume.pdf">
+            Download CV
+          </a>
+        </div>
+      </div>
+    </div>
 
     <div class="fab">
       <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
