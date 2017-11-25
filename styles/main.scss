@@ -4,8 +4,12 @@ $icon-square-length: 300px;
 $standard-border: 4px solid black;
 
 .column {
-    float: left;
-    width: 33.33%;
+    float: center;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 /* Clear floats after the columns */
@@ -15,6 +19,10 @@ $standard-border: 4px solid black;
     clear: both;
 }
 
+.demo-list-three {
+  width: 650px;
+}
+
 .top-half {
   background-color: #4054b2;
 }
@@ -22,6 +30,7 @@ $standard-border: 4px solid black;
 .bottom-half {
   background-color: #efefef;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 h1 {

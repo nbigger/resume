@@ -1,6 +1,10 @@
 .column {
-  float: left;
-  width: 33.33%; }
+  float: center;
+  width: 50%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
 
 /* Clear floats after the columns */
 .row:after {
@@ -8,12 +12,16 @@
   display: table;
   clear: both; }
 
+.demo-list-three {
+  width: 650px; }
+
 .top-half {
   background-color: #4054b2; }
 
 .bottom-half {
   background-color: #efefef;
-  padding-top: 100px; }
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
 h1 {
   text-align: center;
