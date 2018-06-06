@@ -36,10 +36,16 @@
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="#skills">Skills</a>
-            <a class="mdl-navigation__link" href="#experience">Experience</a>
-            <a class="mdl-navigation__link" href="#contact">Contact</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#skills">Skills</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#experience">Experience</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#contact">Contact</a>
           </nav>
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">About</li>
+          </ul>
         </div>
       </header>
       <div class="mdl-layout__drawer">
@@ -78,11 +84,6 @@
           <a href="https://github.com/nbigger" class="fa fa-github"></a>
         </div>
       </center>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="./img/resume.pdf" download="resume.pdf">
-          Download CV
-        </a>
-      </div>
     </div>
 
     <div name="skills" class="skills-section">
@@ -195,38 +196,86 @@
         </p>
       </div>
     </div>
+  </div>
+  <!-- <div class="seperator">
+    <div id="seperator-title" class="mdl-card__title">
+      <h2>Contact Me</h2>
+    </div>
+    <a id="seperator-button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="./img/resume.pdf" download="resume.pdf">
+      Download CV
+    </a>
+  </div> -->
 
-    <div name="contact" class="section">
-      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-        <div id="contact" class="mdl-card__title">
-          <h2 class="mdl-card__title-text">Nick Bigger</h2>
-        </div>
-        <p class="mdl-card__supporting-text">
-          I am a Computer Science student studying for my Bachelors of Science at the University of Puget Sound.
-          I am passionate about full-stack software development and UI/UX design, and hope to one day expand
-          my skills to include artificial intelligence. I have an excellent knowledge of Java, Python, HTML/CSS,
-          SQL, Jade, and JavaScript and a drive to learn more in the future.<br />
-          <br />
-          I am pursuing an internship in the coming Summer 2018 to follow up an extremely successful three months
-          spent as a Product Consultant Intern at Tableau Software, where I learned how to visualize data and
-          communicate with databases using SQL. In addition, I became a Tableau Certified Associate. The summer
-          before I worked as a Software Developer at a VFX firm in London England Nvizible, where I wrote a
-          program to package, analyze, scrub and approve large video files for clients.
-        </p>
-        <div class="mdl-card__actions mdl-card--border">
-          <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" href="./img/resume.pdf" download="resume.pdf">
-            Download CV
-          </a>
-        </div>
+  <!-- <footer class="android-footer mdl-mega-footer">
+    <div class="contact">
+      <div id="contact" class="mdl-card__title">
+        <center><h2>Contact Me</h2></center>
+      </div>
+      <center>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Name</label>
+          </div>
+        </form>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Email</label>
+          </div>
+        </form>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Company</label>
+          </div>
+        </form>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield">
+            <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+            <label class="mdl-textfield__label" for="sample5">Message</label>
+          </div>
+        </form>
+      </center>
+    </div>
+  </footer> -->
+
+  <footer class="android-footer mdl-mega-footer" name="contact">
+    <div class="mdl-mega-footer--top-section">
+      <div class="mdl-mega-footer--left-section">
+        <button class="mdl-mega-footer--social-btn"></button>
+        &nbsp;
+        <button class="mdl-mega-footer--social-btn"></button>
+        &nbsp;
+        <button class="mdl-mega-footer--social-btn"></button>
+      </div>
+      <div class="mdl-mega-footer--right-section">
+        <a class="mdl-typography--font-light" href="#top">
+          Back to Top
+          <i class="material-icons">expand_less</i>
+        </a>
       </div>
     </div>
 
-    <div class="fab">
-      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-        <a href="mailto:nick.bigger@gmail.com"></a><i class="material-icons">mail</i>
-      </button>
+    <div class="mdl-mega-footer--middle-section">
+      <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
+      <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
     </div>
 
+    <div class="mdl-mega-footer--bottom-section">
+      
+    </div>
+
+  </footer>
+
+  <div class="fab">
+    <!-- <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <a href="mailto:nick.bigger@gmail.com"></a><i class="material-icons">mail</i>
+    </button> -->
+    <a href="./img/resume.pdf" download="resume.pdf" id="download-cv"
+    class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">
+      Download CV
+    </a>
   </div>
 
   <script src="mdl/material.min.js"></script>

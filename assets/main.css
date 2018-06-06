@@ -30,8 +30,8 @@
 
 .fab {
   position: fixed;
-  bottom: 50px;
-  right: 50px; }
+  bottom: 5%;
+  right: 3%; }
 
 h1 {
   text-align: center;
@@ -122,3 +122,30 @@ h1 {
 
 .section {
   padding-top: 45px; }
+
+.contact {
+  background-color: #0e4e66;
+  color: white;
+  height: 500px; }
+
+.seperator {
+  background-color: #105a76;
+  color: white;
+  height: 100px; }
+
+#seperator-title {
+  color: white; }
+
+/**** Mobile layout ****/
+@media (max-width: 900px) {
+  .android-more-button {
+    display: none;
+  }
+
+  .demo-card-wide .mdl-card {
+    width: 95%
+  }
+  .android-footer .mdl-mega-footer--bottom-section {
+    display: none;
+  }
+}
